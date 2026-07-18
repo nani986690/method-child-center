@@ -65,7 +65,7 @@ height:50px;
 border:none;
 border-radius:50%;
 background:#1E6EFF;
-color:#fff;
+color:#ffffff;
 font-size:22px;
 cursor:pointer;
 display:none;
