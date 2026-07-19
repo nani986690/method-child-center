@@ -4,27 +4,36 @@ script.js
 
 const menuBtn = document.querySelector(".menu-btn");
 const navbar = document.querySelector(".navbar");
+const body = document.body;
+
+const setMenuState = (isOpen) => {
+    navbar.classList.toggle("active", isOpen);
+    body.classList.toggle("menu-open", isOpen);
+    menuBtn.innerHTML = isOpen ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+};
 
 if (menuBtn && navbar) {
-    menuBtn.addEventListener("click", () => {
-        navbar.classList.toggle("active");
-
-        if (navbar.classList.contains("active")) {
-            menuBtn.innerHTML = '<i class="fa-solid fa-xmark"></i>';
-        } else {
-            menuBtn.innerHTML = '<i class="fa-solid fa-bars"></i>';
-        }
+    menuBtn.addEventListener("click", (event) => {
+        event.stopPropagation();
+        setMenuState(!navbar.classList.contains("active"));
     });
-
-    /*==========================================
-    Close Menu on Link Click
-    ==========================================*/
 
     document.querySelectorAll(".navbar a").forEach(link => {
         link.addEventListener("click", () => {
-            navbar.classList.remove("active");
-            menuBtn.innerHTML = '<i class="fa-solid fa-bars"></i>';
+            setMenuState(false);
         });
+    });
+
+    document.addEventListener("click", (event) => {
+        if (!navbar.classList.contains("active")) return;
+        if (navbar.contains(event.target) || menuBtn.contains(event.target)) return;
+        setMenuState(false);
+    });
+
+    document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+            setMenuState(false);
+        }
     });
 }
 

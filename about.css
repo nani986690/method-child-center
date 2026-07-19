@@ -758,12 +758,40 @@ RESPONSIVE
     text-align:center;
 }
 
+.about-hero-grid,
+.mission-grid,
+.story-grid,
+.impact-grid,
+.mission-vision,
+.our-story{
+    gap:24px;
+}
+
+.about-hero,
+.our-story,
+.mission-vision{
+    padding-left:0;
+    padding-right:0;
+}
+
 }
 
 @media(max-width:576px){
 
 .about-hero{
     padding:120px 0 70px;
+}
+
+.about-left h1,
+.section-heading h2,
+.mission-card h3{
+    overflow-wrap:anywhere;
+}
+
+.about-stats .stat-box,
+.story-card,
+.mission-card{
+    min-width:0;
 }
 
 .section-heading{

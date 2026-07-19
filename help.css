@@ -697,6 +697,24 @@ RESPONSIVE
     padding:120px 0 70px;
 }
 
+.help-hero-grid,
+.donate-grid,
+.options-grid,
+.shopping-grid,
+.impact-grid,
+.help-options,
+.donate-section,
+.impact-preview{
+    gap:24px;
+}
+
+.option-card,
+.donate-feature,
+.donate-image,
+.help-cta-card{
+    min-width:0;
+}
+
 .help-left h1,
 .donate-content h2,
 .scholarship-content h2,

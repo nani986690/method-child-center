@@ -684,6 +684,28 @@ RESPONSIVE
     padding:120px 0 70px;
 }
 
+.parents-hero-grid,
+.resource-grid,
+.communication-grid,
+.info-grid,
+.fig-grid,
+.volunteer-grid,
+.parent-resources,
+.communication,
+.information,
+.volunteer-section{
+    gap:24px;
+}
+
+.resource-card,
+.communication-card,
+.info-card,
+.fig-card,
+.volunteer-card,
+.parent-highlight{
+    min-width:0;
+}
+
 .parents-left h1{
     font-size:2.2rem;
 }
