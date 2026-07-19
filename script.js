@@ -64,7 +64,7 @@ width:50px;
 height:50px;
 border:none;
 border-radius:50%;
-background:#2F7D32;
+background:#1E6EFF;
 color:#fff;
 font-size:22px;
 cursor:pointer;

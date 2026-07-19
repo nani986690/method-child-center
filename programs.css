@@ -60,7 +60,7 @@ margin-bottom:20px;
 
 font-size:60px;
 line-height:1.15;
-color:#173B2D;
+color:#1E6EFF;
 margin-bottom:25px;
 
 }
@@ -186,7 +186,7 @@ margin-bottom:20px;
 .left h2{
 
 font-size:48px;
-color:#173B2D;
+color:#1E6EFF;
 margin-bottom:25px;
 line-height:1.2;
 
@@ -299,7 +299,7 @@ margin-bottom:70px;
 display:inline-block;
 padding:8px 18px;
 background:#E9F6EC;
-color:#2F7D32;
+color:#1E6EFF;
 border-radius:40px;
 font-size:14px;
 font-weight:600;
@@ -310,7 +310,7 @@ font-weight:600;
 
 font-size:48px;
 margin:25px 0 15px;
-color:#173B2D;
+color:#1E6EFF;
 
 }
 
@@ -377,7 +377,7 @@ margin-bottom:18px;
 
 font-size:28px;
 margin-bottom:15px;
-color:#173B2D;
+color:#1E6EFF;
 
 }
 
@@ -567,7 +567,7 @@ flex:1;
 .content h3{
 
 margin-bottom:12px;
-color:#173B2D;
+color:#1E6EFF;
 
 }
 
@@ -641,7 +641,7 @@ margin-bottom:20px;
 .right h2{
 
 font-size:48px;
-color:#173B2D;
+color:#1E6EFF;
 margin-bottom:20px;
 
 }
@@ -687,7 +687,7 @@ flex-shrink:0;
 .feature h3{
 
 margin-bottom:8px;
-color:#173B2D;
+color:#1E6EFF;
 
 }
 
@@ -749,7 +749,7 @@ box-shadow:0 10px 25px rgba(0,0,0,.05);
 font-size:20px;
 font-weight:600;
 cursor:pointer;
-color:#173B2D;
+color:#1E6EFF;
 list-style:none;
 
 }
